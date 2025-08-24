@@ -278,3 +278,5 @@
   .kg-edge { stroke: hsl(var(--muted-foreground)); stroke-width: 2; }
   .kg-edge.highlighted { stroke: hsl(var(--nasa-orange)); stroke-width: 3; }
 }
+
+

@@ -32,7 +32,7 @@ export function Navigation() {
               <Brain className="w-6 h-6 text-sky-white" />
             </div>
             <div className="flex flex-col leading-tight">
-              <span className="text-cosmic">NASA Space Biology</span>
+              <span className="text-cosmic">SpaceBio Engine Sirius</span>
               <span className="text-xs text-muted-foreground font-normal">Knowledge Engine</span>
             </div>
           </Link>
