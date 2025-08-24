@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "osdr-001",
+    "title": "Osteocyte transcriptome is altered during spaceflight",
+    "source": "OSDR/GeneLab",
+    "year": 2019,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 61",
+    "assayType": "RNA-seq",
+    "sampleSize": 48,
+    "snippet": "Significant downregulation of bone formation genes in osteocytes after 30 days of microgravity exposure, with BGLAP and COL1A1 showing 3.2-fold and 2.8-fold decreases respectively",
+    "entities": ["bone", "microgravity", "osteocytes", "transcriptome"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-571",
+    "ragSnippets": [
+      "Significant downregulation of bone formation genes in osteocytes after 30 days of microgravity exposure",
+      "BGLAP and COL1A1 showing 3.2-fold and 2.8-fold decreases respectively"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Differential gene expression heatmap"},
+      {"id": "fig2", "url": "/api/placeholder/600/400", "caption": "Pathway analysis visualization"}
+    ],
+    "datasets": ["RR-19-bone-samples"],
+    "metadata": {"instruments": ["Illumina HiSeq 4000"], "assayTypes": ["RNA-seq"], "missions": ["ISS Expedition 61"], "duration": "30 days", "tissueType": "bone", "keyGenes": ["BGLAP", "COL1A1"]},
+    "previewData": null,
+    "doi": "10.1038/s41526-019-0087-0",
+    "ragExpansion": {"relevantPassages": [{"text": "Significant downregulation of bone formation genes...", "chunkId": "chunk_001", "confidence": 0.92}], "extractionTrace": ["chunk_001"]},
+    "relatedStudies": [{"id": "osdr-002", "title": "Rodent Research-23: Adrenal gland transcriptional responses", "similarity": 0.76}]
+  },
+  {
+    "id": "osdr-002",
+    "title": "Rodent Research-23: Adrenal gland transcriptional responses to spaceflight",
+    "source": "OSDR/GeneLab",
+    "year": 2020,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 62",
+    "assayType": "RNA-seq",
+    "sampleSize": 32,
+    "snippet": "Distinct gene expression patterns in adrenal cortex affecting stress response mechanisms with upregulation of steroidogenic enzymes and HPA axis regulatory genes",
+    "entities": ["adrenal", "stress response", "HPA axis", "transcriptome"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-572",
+    "ragSnippets": [
+      "Distinct gene expression patterns in adrenal cortex affecting stress response mechanisms",
+      "Upregulation of steroidogenic enzymes and HPA axis regulatory genes"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Gene expression heatmap for adrenal cortex"}
+    ],
+    "datasets": ["RR-23-adrenal-samples"],
+    "metadata": {"instruments": ["Illumina HiSeq 4000"], "assayTypes": ["RNA-seq"], "missions": ["ISS Expedition 62"], "duration": "37 days", "tissueType": "adrenal", "keyGenes": ["NR3C1", "CRH"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Distinct gene expression patterns in adrenal cortex...", "chunkId": "chunk_002", "confidence": 0.89}], "extractionTrace": ["chunk_002"]},
+    "relatedStudies": [{"id": "osdr-001", "title": "Osteocyte transcriptome is altered during spaceflight", "similarity": 0.68}]
+  },
+  {
+    "id": "osdr-003",
+    "title": "Muscle atrophy mechanisms in microgravity: A proteomic approach",
+    "source": "OSDR/GeneLab",
+    "year": 2021,
+    "organism": "Mus musculus",
+    "mission": "SpaceX CRS-24",
+    "assayType": "Proteomics",
+    "sampleSize": 24,
+    "snippet": "Significant activation of ubiquitin-proteasome system in skeletal muscle with downregulation of myosin heavy chain proteins and structural muscle components",
+    "entities": ["muscle atrophy", "proteomics", "ubiquitin", "myosin"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-573",
+    "ragSnippets": [
+      "Significant activation of ubiquitin-proteasome system in skeletal muscle",
+      "Downregulation of myosin heavy chain proteins and structural muscle components"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Proteomic profile of muscle tissue"}
+    ],
+    "datasets": ["CRS-24-muscle-proteomics"],
+    "metadata": {"instruments": ["Mass spectrometer"], "assayTypes": ["Proteomics"], "missions": ["SpaceX CRS-24"], "duration": "30 days", "tissueType": "skeletal muscle", "keyGenes": ["MYH1", "UBC"]},
+    "previewData": {"type": "csv", "rows": [{"protein": "MYH1", "fold_change": -2.5}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Significant activation of ubiquitin-proteasome system...", "chunkId": "chunk_003", "confidence": 0.85}], "extractionTrace": ["chunk_003"]},
+    "relatedStudies": [{"id": "osdr-001", "title": "Osteocyte transcriptome is altered during spaceflight", "similarity": 0.72}]
+  },
+  {
+    "id": "osdr-004",
+    "title": "Cardiovascular deconditioning during long-duration spaceflight",
+    "source": "OSDR/GeneLab",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "ISS Long-duration",
+    "assayType": "Echocardiography",
+    "sampleSize": 12,
+    "snippet": "Progressive reduction in left ventricular mass and altered cardiac geometry observed in astronauts during 6-month ISS missions",
+    "entities": ["cardiovascular", "deconditioning", "left ventricle", "astronauts"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-574",
+    "ragSnippets": [
+      "Progressive reduction in left ventricular mass and altered cardiac geometry",
+      "Observed in astronauts during 6-month ISS missions"
+    ],
+    "figures": [],
+    "datasets": ["ISS-cardio-deconditioning"],
+    "metadata": {"instruments": ["Ultrasound"], "assayTypes": ["Echocardiography"], "missions": ["ISS Long-duration"], "duration": "180 days", "tissueType": "heart", "keyGenes": []},
+    "previewData": {"type": "taxonomy", "data": [{"metric": "LV mass", "change": -15}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Progressive reduction in left ventricular mass...", "chunkId": "chunk_004", "confidence": 0.88}], "extractionTrace": ["chunk_004"]},
+    "relatedStudies": [{"id": "osdr-003", "title": "Muscle atrophy mechanisms in microgravity: A proteomic approach", "similarity": 0.65}]
+  },
+  {
+    "id": "osdr-005",
+    "title": "Plant gravitropism responses in microgravity environments",
+    "source": "OSDR/GeneLab",
+    "year": 2019,
+    "organism": "Arabidopsis thaliana",
+    "mission": "ISS Expedition 60",
+    "assayType": "Transcriptomics",
+    "sampleSize": 16,
+    "snippet": "Altered auxin signaling pathways and gravitropic response genes in plant specimens grown aboard the ISS",
+    "entities": ["gravitropism", "auxin", "Arabidopsis", "plant biology"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575",
+    "ragSnippets": [
+      "Altered auxin signaling pathways and gravitropic response genes",
+      "In plant specimens grown aboard the ISS"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Plant growth patterns in microgravity"}
+    ],
+    "datasets": ["ISS-plant-gravitropism"],
+    "metadata": {"instruments": ["RNA sequencer"], "assayTypes": ["Transcriptomics"], "missions": ["ISS Expedition 60"], "duration": "14 days", "tissueType": "whole plant", "keyGenes": ["AUX1", "PIN3"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Altered auxin signaling pathways...", "chunkId": "chunk_005", "confidence": 0.87}], "extractionTrace": ["chunk_005"]},
+    "relatedStudies": [{"id": "osdr-001", "title": "Osteocyte transcriptome is altered during spaceflight", "similarity": 0.55}]
+  },
+  {
+    "id": "osdr-006",
+    "title": "Immune system alterations during spaceflight missions",
+    "source": "OSDR/GeneLab",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 64",
+    "assayType": "Flow cytometry",
+    "sampleSize": 8,
+    "snippet": "Decreased T-cell proliferation and altered cytokine production patterns in astronaut blood samples collected pre-, during, and post-flight",
+    "entities": ["immune system", "T-cells", "cytokines", "spaceflight"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-576",
+    "ragSnippets": [
+      "Decreased T-cell proliferation and altered cytokine production patterns",
+      "In astronaut blood samples collected pre-, during, and post-flight"
+    ],
+    "figures": [],
+    "datasets": ["ISS-immune-alterations"],
+    "metadata": {"instruments": ["Flow cytometer"], "assayTypes": ["Flow cytometry"], "missions": ["ISS Expedition 64"], "duration": "180 days", "tissueType": "blood", "keyGenes": ["IL2", "IFNG"]},
+    "previewData": {"type": "csv", "rows": [{"cell_type": "T-cell", "proliferation": -20}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Decreased T-cell proliferation...", "chunkId": "chunk_006", "confidence": 0.90}], "extractionTrace": ["chunk_006"]},
+    "relatedStudies": [{"id": "osdr-004", "title": "Cardiovascular deconditioning during long-duration spaceflight", "similarity": 0.70}]
+  },
+  {
+    "id": "osdr-007",
+    "title": "Microbiome shifts in closed-loop environments",
+    "source": "OSDR/GeneLab",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 63",
+    "assayType": "16S rRNA sequencing",
+    "sampleSize": 45,
+    "snippet": "Significant changes in gut microbiome diversity and composition during long-duration spaceflight with increased pathogenic bacteria prevalence",
+    "entities": ["microbiome", "gut bacteria", "16S rRNA", "pathogenic"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-577",
+    "ragSnippets": [
+      "Significant changes in gut microbiome diversity and composition",
+      "During long-duration spaceflight with increased pathogenic bacteria prevalence"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Microbiome diversity charts"}
+    ],
+    "datasets": ["ISS-microbiome-shifts"],
+    "metadata": {"instruments": ["Sequencer"], "assayTypes": ["16S rRNA sequencing"], "missions": ["ISS Expedition 63"], "duration": "180 days", "tissueType": "gut", "keyGenes": []},
+    "previewData": {"type": "taxonomy", "data": [{"taxon": "Firmicutes", "abundance_pre": 45.2, "abundance_flight": 38.7, "abundance_post": 42.1}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Significant changes in gut microbiome diversity...", "chunkId": "chunk_007", "confidence": 0.86}], "extractionTrace": ["chunk_007"]},
+    "relatedStudies": [{"id": "osdr-006", "title": "Immune system alterations during spaceflight missions", "similarity": 0.78}]
+  },
+  {
+    "id": "osdr-008",
+    "title": "Liver metabolism during microgravity exposure",
+    "source": "OSDR/GeneLab",
+    "year": 2019,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 59",
+    "assayType": "Metabolomics",
+    "sampleSize": 36,
+    "snippet": "Altered hepatic glucose metabolism and lipid processing pathways in rodent liver tissue after 30 days of microgravity",
+    "entities": ["liver", "metabolism", "glucose", "lipid processing"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-578",
+    "ragSnippets": [
+      "Altered hepatic glucose metabolism and lipid processing pathways",
+      "In rodent liver tissue after 30 days of microgravity"
+    ],
+    "figures": [],
+    "datasets": ["ISS-liver-metabolomics"],
+    "metadata": {"instruments": ["Mass spectrometer"], "assayTypes": ["Metabolomics"], "missions": ["ISS Expedition 59"], "duration": "30 days", "tissueType": "liver", "keyGenes": ["G6PC", "ACSL1"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Altered hepatic glucose metabolism...", "chunkId": "chunk_008", "confidence": 0.84}], "extractionTrace": ["chunk_008"]},
+    "relatedStudies": [{"id": "osdr-003", "title": "Muscle atrophy mechanisms in microgravity: A proteomic approach", "similarity": 0.62}]
+  },
+  {
+    "id": "osdr-009",
+    "title": "Neural plasticity changes in microgravity",
+    "source": "OSDR/GeneLab",
+    "year": 2021,
+    "organism": "Mus musculus",
+    "mission": "SpaceX CRS-25",
+    "assayType": "RNA-seq",
+    "sampleSize": 28,
+    "snippet": "Downregulation of synaptic plasticity genes and altered neurogenesis markers in hippocampal tissue from spaceflight mice",
+    "entities": ["neural plasticity", "synaptic", "neurogenesis", "hippocampus"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-579",
+    "ragSnippets": [
+      "Downregulation of synaptic plasticity genes and altered neurogenesis markers",
+      "In hippocampal tissue from spaceflight mice"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Neural gene expression heatmap"}
+    ],
+    "datasets": ["CRS-25-neural-samples"],
+    "metadata": {"instruments": ["Illumina HiSeq"], "assayTypes": ["RNA-seq"], "missions": ["SpaceX CRS-25"], "duration": "35 days", "tissueType": "hippocampus", "keyGenes": ["BDNF", "ARC"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Downregulation of synaptic plasticity genes...", "chunkId": "chunk_009", "confidence": 0.91}], "extractionTrace": ["chunk_009"]},
+    "relatedStudies": [{"id": "osdr-001", "title": "Osteocyte transcriptome is altered during spaceflight", "similarity": 0.60}]
+  },
+  {
+    "id": "osdr-010",
+    "title": "Radiation exposure effects on DNA repair mechanisms",
+    "source": "OSDR/GeneLab",
+    "year": 2020,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 62",
+    "assayType": "RNA-seq",
+    "sampleSize": 40,
+    "snippet": "Upregulation of DNA damage response pathways and cell cycle checkpoint genes in response to space radiation exposure",
+    "entities": ["radiation", "DNA repair", "cell cycle", "spaceflight"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-580",
+    "ragSnippets": [
+      "Upregulation of DNA damage response pathways",
+      "Cell cycle checkpoint genes in response to space radiation exposure"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "DNA repair pathway diagram"}
+    ],
+    "datasets": ["ISS-radiation-dna"],
+    "metadata": {"instruments": ["Illumina HiSeq"], "assayTypes": ["RNA-seq"], "missions": ["ISS Expedition 62"], "duration": "30 days", "tissueType": "various", "keyGenes": ["ATM", "BRCA1"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Upregulation of DNA damage response pathways...", "chunkId": "chunk_010", "confidence": 0.89}], "extractionTrace": ["chunk_010"]},
+    "relatedStudies": [{"id": "osdr-006", "title": "Immune system alterations during spaceflight missions", "similarity": 0.75}]
+  },
+  {
+    "id": "osdr-011",
+    "title": "Bone density changes in long-duration spaceflight",
+    "source": "OSDR/GeneLab",
+    "year": 2022,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 65",
+    "assayType": "Micro-CT",
+    "sampleSize": 20,
+    "snippet": "Quantified bone density loss in weight-bearing bones after extended microgravity exposure",
+    "entities": ["bone density", "microgravity", "Micro-CT"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-581",
+    "ragSnippets": [
+      "Quantified bone density loss in weight-bearing bones",
+      "After extended microgravity exposure"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Micro-CT scans of bones"}
+    ],
+    "datasets": ["ISS-bone-density"],
+    "metadata": {"instruments": ["Micro-CT scanner"], "assayTypes": ["Micro-CT"], "missions": ["ISS Expedition 65"], "duration": "90 days", "tissueType": "bone", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "bone_scan.tiff", "dimensions": "1024x1024"}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Quantified bone density loss...", "chunkId": "chunk_011", "confidence": 0.85}], "extractionTrace": ["chunk_011"]},
+    "relatedStudies": [{"id": "osdr-001", "title": "Osteocyte transcriptome is altered during spaceflight", "similarity": 0.85}]
+  },
+  {
+    "id": "osdr-012",
+    "title": "Stress hormone regulation in space",
+    "source": "OSDR/GeneLab",
+    "year": 2021,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 64",
+    "assayType": "ELISA",
+    "sampleSize": 30,
+    "snippet": "Elevated cortisol levels and altered hormone regulation in rodents during spaceflight",
+    "entities": ["stress hormone", "cortisol", "ELISA"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-582",
+    "ragSnippets": [
+      "Elevated cortisol levels and altered hormone regulation",
+      "In rodents during spaceflight"
+    ],
+    "figures": [],
+    "datasets": ["ISS-stress-hormones"],
+    "metadata": {"instruments": ["ELISA reader"], "assayTypes": ["ELISA"], "missions": ["ISS Expedition 64"], "duration": "45 days", "tissueType": "blood", "keyGenes": []},
+    "previewData": {"type": "csv", "rows": [{"hormone": "cortisol", "level_flight": 150, "level_control": 80}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Elevated cortisol levels...", "chunkId": "chunk_012", "confidence": 0.88}], "extractionTrace": ["chunk_012"]},
+    "relatedStudies": [{"id": "osdr-002", "title": "Rodent Research-23: Adrenal gland transcriptional responses to spaceflight", "similarity": 0.90}]
+  },
+  {
+    "id": "osdr-013",
+    "title": "Proteomic analysis of heart tissue in microgravity",
+    "source": "OSDR/GeneLab",
+    "year": 2022,
+    "organism": "Mus musculus",
+    "mission": "SpaceX CRS-26",
+    "assayType": "Proteomics",
+    "sampleSize": 25,
+    "snippet": "Changes in cardiac protein expression profiles under microgravity conditions",
+    "entities": ["proteomics", "heart tissue", "microgravity"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-583",
+    "ragSnippets": [
+      "Changes in cardiac protein expression profiles",
+      "Under microgravity conditions"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Cardiac proteome heatmap"}
+    ],
+    "datasets": ["CRS-26-heart-proteomics"],
+    "metadata": {"instruments": ["Mass spectrometer"], "assayTypes": ["Proteomics"], "missions": ["SpaceX CRS-26"], "duration": "40 days", "tissueType": "heart", "keyGenes": ["MYH6", "TNNT2"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Changes in cardiac protein expression...", "chunkId": "chunk_013", "confidence": 0.86}], "extractionTrace": ["chunk_013"]},
+    "relatedStudies": [{"id": "osdr-004", "title": "Cardiovascular deconditioning during long-duration spaceflight", "similarity": 0.82}]
+  },
+  {
+    "id": "osdr-014",
+    "title": "Plant nutrient uptake in space environments",
+    "source": "OSDR/GeneLab",
+    "year": 2020,
+    "organism": "Arabidopsis thaliana",
+    "mission": "ISS Expedition 62",
+    "assayType": "Metabolomics",
+    "sampleSize": 18,
+    "snippet": "Modified nutrient absorption patterns in plants grown in microgravity",
+    "entities": ["plant nutrition", "nutrient uptake", "metabolomics"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-584",
+    "ragSnippets": [
+      "Modified nutrient absorption patterns",
+      "In plants grown in microgravity"
+    ],
+    "figures": [],
+    "datasets": ["ISS-plant-nutrients"],
+    "metadata": {"instruments": ["Mass spectrometer"], "assayTypes": ["Metabolomics"], "missions": ["ISS Expedition 62"], "duration": "21 days", "tissueType": "roots", "keyGenes": ["NRT1", "AMT1"]},
+    "previewData": {"type": "csv", "rows": [{"nutrient": "Nitrogen", "uptake_flight": 75, "uptake_control": 100}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Modified nutrient absorption patterns...", "chunkId": "chunk_014", "confidence": 0.84}], "extractionTrace": ["chunk_014"]},
+    "relatedStudies": [{"id": "osdr-005", "title": "Plant gravitropism responses in microgravity environments", "similarity": 0.88}]
+  },
+  {
+    "id": "osdr-015",
+    "title": "Immune response to pathogens in space",
+    "source": "OSDR/GeneLab",
+    "year": 2022,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 66",
+    "assayType": "RNA-seq",
+    "sampleSize": 10,
+    "snippet": "Altered immune gene expression in response to pathogen challenge during spaceflight",
+    "entities": ["immune response", "pathogens", "RNA-seq"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-585",
+    "ragSnippets": [
+      "Altered immune gene expression in response to pathogen challenge",
+      "During spaceflight"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Immune gene heatmap"}
+    ],
+    "datasets": ["ISS-pathogen-immune"],
+    "metadata": {"instruments": ["Illumina HiSeq"], "assayTypes": ["RNA-seq"], "missions": ["ISS Expedition 66"], "duration": "180 days", "tissueType": "blood", "keyGenes": ["TLR4", "NFKB1"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Altered immune gene expression...", "chunkId": "chunk_015", "confidence": 0.89}], "extractionTrace": ["chunk_015"]},
+    "relatedStudies": [{"id": "osdr-006", "title": "Immune system alterations during spaceflight missions", "similarity": 0.92}]
+  },
+  {
+    "id": "osdr-016",
+    "title": "Gut-brain axis in microgravity",
+    "source": "OSDR/GeneLab",
+    "year": 2021,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 65",
+    "assayType": "Multi-omics",
+    "sampleSize": 35,
+    "snippet": "Disruptions in gut-brain communication pathways under microgravity conditions",
+    "entities": ["gut-brain axis", "multi-omics", "microgravity"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-586",
+    "ragSnippets": [
+      "Disruptions in gut-brain communication pathways",
+      "Under microgravity conditions"
+    ],
+    "figures": [],
+    "datasets": ["ISS-gut-brain"],
+    "metadata": {"instruments": ["Sequencer", "Mass spec"], "assayTypes": ["Multi-omics"], "missions": ["ISS Expedition 65"], "duration": "60 days", "tissueType": "gut, brain", "keyGenes": ["BDNF", "5HT"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Disruptions in gut-brain communication...", "chunkId": "chunk_016", "confidence": 0.87}], "extractionTrace": ["chunk_016"]},
+    "relatedStudies": [{"id": "osdr-007", "title": "Microbiome shifts in closed-loop environments", "similarity": 0.85}]
+  },
+  {
+    "id": "osdr-017",
+    "title": "Hepatic lipid accumulation in spaceflight",
+    "source": "OSDR/GeneLab",
+    "year": 2022,
+    "organism": "Mus musculus",
+    "mission": "SpaceX CRS-27",
+    "assayType": "Lipidomics",
+    "sampleSize": 22,
+    "snippet": "Increased lipid droplets and altered fatty acid metabolism in liver during microgravity",
+    "entities": ["hepatic lipid", "lipidomics", "fatty acid"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-587",
+    "ragSnippets": [
+      "Increased lipid droplets and altered fatty acid metabolism",
+      "In liver during microgravity"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Lipid profile charts"}
+    ],
+    "datasets": ["CRS-27-liver-lipids"],
+    "metadata": {"instruments": ["Mass spectrometer"], "assayTypes": ["Lipidomics"], "missions": ["SpaceX CRS-27"], "duration": "45 days", "tissueType": "liver", "keyGenes": ["PPARA", "ACOX1"]},
+    "previewData": {"type": "csv", "rows": [{"lipid": "Triglyceride", "accumulation": 200}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Increased lipid droplets...", "chunkId": "chunk_017", "confidence": 0.86}], "extractionTrace": ["chunk_017"]},
+    "relatedStudies": [{"id": "osdr-008", "title": "Liver metabolism during microgravity exposure", "similarity": 0.90}]
+  },
+  {
+    "id": "osdr-018",
+    "title": "Cognitive performance and brain structure in astronauts",
+    "source": "OSDR/GeneLab",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 63",
+    "assayType": "MRI",
+    "sampleSize": 15,
+    "snippet": "Changes in brain volume and cognitive test scores pre- and post-spaceflight",
+    "entities": ["cognitive performance", "brain structure", "MRI"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-588",
+    "ragSnippets": [
+      "Changes in brain volume and cognitive test scores",
+      "Pre- and post-spaceflight"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Brain MRI scans"}
+    ],
+    "datasets": ["ISS-cognitive-brain"],
+    "metadata": {"instruments": ["MRI scanner"], "assayTypes": ["MRI"], "missions": ["ISS Expedition 63"], "duration": "180 days", "tissueType": "brain", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "brain_mri.tiff", "dimensions": "512x512"}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Changes in brain volume...", "chunkId": "chunk_018", "confidence": 0.88}], "extractionTrace": ["chunk_018"]},
+    "relatedStudies": [{"id": "osdr-009", "title": "Neural plasticity changes in microgravity", "similarity": 0.85}]
+  },
+  {
+    "id": "osdr-019",
+    "title": "DNA methylation patterns in space-exposed cells",
+    "source": "OSDR/GeneLab",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 65",
+    "assayType": "Epigenomics",
+    "sampleSize": 20,
+    "snippet": "Altered DNA methylation profiles in cultured cells exposed to microgravity and radiation",
+    "entities": ["DNA methylation", "epigenomics", "microgravity"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-589",
+    "ragSnippets": [
+      "Altered DNA methylation profiles in cultured cells",
+      "Exposed to microgravity and radiation"
+    ],
+    "figures": [],
+    "datasets": ["ISS-epigenomics-cells"],
+    "metadata": {"instruments": ["Sequencer"], "assayTypes": ["Epigenomics"], "missions": ["ISS Expedition 65"], "duration": "30 days", "tissueType": "cells", "keyGenes": ["DNMT1", "TET1"]},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Altered DNA methylation profiles...", "chunkId": "chunk_019", "confidence": 0.87}], "extractionTrace": ["chunk_019"]},
+    "relatedStudies": [{"id": "osdr-010", "title": "Radiation exposure effects on DNA repair mechanisms", "similarity": 0.80}]
+  },
+  {
+    "id": "osdr-020",
+    "title": "Vascular endothelial function in space",
+    "source": "OSDR/GeneLab",
+    "year": 2022,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 67",
+    "assayType": "Ultrasound",
+    "sampleSize": 12,
+    "snippet": "Impaired endothelial function and vascular stiffness in astronauts during long-duration missions",
+    "entities": ["vascular endothelium", "ultrasound", "vascular stiffness"],
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-590",
+    "ragSnippets": [
+      "Impaired endothelial function and vascular stiffness",
+      "In astronauts during long-duration missions"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Vascular ultrasound images"}
+    ],
+    "datasets": ["ISS-vascular-function"],
+    "metadata": {"instruments": ["Ultrasound"], "assayTypes": ["Ultrasound"], "missions": ["ISS Expedition 67"], "duration": "180 days", "tissueType": "vascular", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "vascular_ultrasound.tiff", "dimensions": "1024x768"}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Impaired endothelial function...", "chunkId": "chunk_020", "confidence": 0.85}], "extractionTrace": ["chunk_020"]},
+    "relatedStudies": [{"id": "osdr-004", "title": "Cardiovascular deconditioning during long-duration spaceflight", "similarity": 0.88}]
+  },
+  {
+    "id": "pmc-001",
+    "title": "Microbiome alterations in astronauts during long-duration spaceflight",
+    "source": "PMC Papers",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 62-63",
+    "assayType": "Metagenomics",
+    "sampleSize": 156,
+    "snippet": "Longitudinal microbiome analysis of crew saliva and skin samples collected pre-flight, in-flight, and post-flight over 6-month mission duration",
+    "entities": ["microbiome", "astronauts", "metagenomics"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8125947/",
+    "ragSnippets": [
+      "Longitudinal microbiome analysis of crew saliva and skin samples",
+      "Collected pre-flight, in-flight, and post-flight over 6-month mission duration"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Microbiome composition chart", "pmcid": "PMC8125947"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Oxford Nanopore MinION"], "assayTypes": ["Metagenomics"], "missions": ["ISS Expedition 62-63"], "duration": "180 days", "tissueType": "saliva, skin", "keyGenes": []},
+    "previewData": null,
+    "doi": "10.1038/s41598-021-89013-3",
+    "ragExpansion": {"relevantPassages": [{"text": "Longitudinal microbiome analysis...", "chunkId": "chunk_021", "confidence": 0.85}], "extractionTrace": ["chunk_021"]},
+    "relatedStudies": [{"id": "osdr-007", "title": "Microbiome shifts in closed-loop environments", "similarity": 0.90}]
+  },
+  {
+    "id": "pmc-002",
+    "title": "Transcriptomic changes in space-exposed human cells",
+    "source": "PMC Papers",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "ISS Cell Culture",
+    "assayType": "RNA-seq",
+    "sampleSize": 50,
+    "snippet": "Gene expression alterations in human cell lines cultured in microgravity for various durations",
+    "entities": ["transcriptomics", "human cells", "microgravity"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7654321/",
+    "ragSnippets": [
+      "Gene expression alterations in human cell lines",
+      "Cultured in microgravity for various durations"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Transcriptome heatmap", "pmcid": "PMC7654321"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Illumina"], "assayTypes": ["RNA-seq"], "missions": ["ISS Cell Culture"], "duration": "14-28 days", "tissueType": "cells", "keyGenes": ["TP53", "CDKN1A"]},
+    "previewData": null,
+    "doi": "10.1016/j.isci.2020.101688",
+    "ragExpansion": {"relevantPassages": [{"text": "Gene expression alterations in human cell lines...", "chunkId": "chunk_022", "confidence": 0.88}], "extractionTrace": ["chunk_022"]},
+    "relatedStudies": [{"id": "pmc-001", "title": "Microbiome alterations in astronauts during long-duration spaceflight", "similarity": 0.70}]
+  },
+  {
+    "id": "pmc-003",
+    "title": "Effects of space radiation on cellular DNA",
+    "source": "PMC Papers",
+    "year": 2019,
+    "organism": "Homo sapiens",
+    "mission": "Ground-based simulation",
+    "assayType": "Comet assay",
+    "sampleSize": 100,
+    "snippet": "DNA damage and repair kinetics in cells exposed to simulated galactic cosmic rays",
+    "entities": ["space radiation", "DNA damage", "comet assay"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789456/",
+    "ragSnippets": [
+      "DNA damage and repair kinetics in cells",
+      "Exposed to simulated galactic cosmic rays"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Comet assay results", "pmcid": "PMC6789456"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Particle accelerator"], "assayTypes": ["Comet assay"], "missions": ["Ground-based simulation"], "duration": "acute", "tissueType": "cells", "keyGenes": ["RAD51", "KU70"]},
+    "previewData": null,
+    "doi": "10.3390/ijms20194789",
+    "ragExpansion": {"relevantPassages": [{"text": "DNA damage and repair kinetics...", "chunkId": "chunk_023", "confidence": 0.86}], "extractionTrace": ["chunk_023"]},
+    "relatedStudies": [{"id": "osdr-010", "title": "Radiation exposure effects on DNA repair mechanisms", "similarity": 0.85}]
+  },
+  {
+    "id": "pmc-004",
+    "title": "Bone loss prevention strategies for space missions",
+    "source": "PMC Papers",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "ISS countermeasure studies",
+    "assayType": "DXA scan",
+    "sampleSize": 20,
+    "snippet": "Evaluation of exercise and pharmaceutical interventions to mitigate bone loss in astronauts",
+    "entities": ["bone loss", "countermeasures", "DXA"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7890123/",
+    "ragSnippets": [
+      "Evaluation of exercise and pharmaceutical interventions",
+      "To mitigate bone loss in astronauts"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Bone density measurements", "pmcid": "PMC7890123"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["DXA scanner"], "assayTypes": ["DXA scan"], "missions": ["ISS countermeasure studies"], "duration": "180 days", "tissueType": "bone", "keyGenes": []},
+    "previewData": null,
+    "doi": "10.1002/jbm4.10481",
+    "ragExpansion": {"relevantPassages": [{"text": "Evaluation of exercise and pharmaceutical interventions...", "chunkId": "chunk_024", "confidence": 0.84}], "extractionTrace": ["chunk_024"]},
+    "relatedStudies": [{"id": "osdr-001", "title": "Osteocyte transcriptome is altered during spaceflight", "similarity": 0.80}]
+  },
+  {
+    "id": "pmc-005",
+    "title": "Sleep disturbances in space environments",
+    "source": "PMC Papers",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "ISS sleep studies",
+    "assayType": "Polysomnography",
+    "sampleSize": 15,
+    "snippet": "Analysis of sleep architecture and quality in astronauts during space missions",
+    "entities": ["sleep disturbances", "polysomnography", "astronauts"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7456789/",
+    "ragSnippets": [
+      "Analysis of sleep architecture and quality",
+      "In astronauts during space missions"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Sleep stage distributions", "pmcid": "PMC7456789"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["PSG device"], "assayTypes": ["Polysomnography"], "missions": ["ISS sleep studies"], "duration": "180 days", "tissueType": "N/A", "keyGenes": []},
+    "previewData": null,
+    "doi": "10.1016/j.sleep.2020.05.032",
+    "ragExpansion": {"relevantPassages": [{"text": "Analysis of sleep architecture...", "chunkId": "chunk_025", "confidence": 0.82}], "extractionTrace": ["chunk_025"]},
+    "relatedStudies": [{"id": "pmc-001", "title": "Microbiome alterations in astronauts during long-duration spaceflight", "similarity": 0.65}]
+  },
+  {
+    "id": "pmc-006",
+    "title": "Ocular changes in long-duration spaceflight",
+    "source": "PMC Papers",
+    "year": 2019,
+    "organism": "Homo sapiens",
+    "mission": "ISS ocular studies",
+    "assayType": "OCT imaging",
+    "sampleSize": 25,
+    "snippet": "Structural changes in the eye and visual impairment in astronauts",
+    "entities": ["ocular changes", "OCT", "visual impairment"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789012/",
+    "ragSnippets": [
+      "Structural changes in the eye and visual impairment",
+      "In astronauts"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "OCT eye scans", "pmcid": "PMC6789012"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["OCT scanner"], "assayTypes": ["OCT imaging"], "missions": ["ISS ocular studies"], "duration": "180 days", "tissueType": "eye", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "oct_eye.tiff", "dimensions": "1024x1024"}]},
+    "doi": "10.1001/jamaophthalmol.2019.3033",
+    "ragExpansion": {"relevantPassages": [{"text": "Structural changes in the eye...", "chunkId": "chunk_026", "confidence": 0.85}], "extractionTrace": ["chunk_026"]},
+    "relatedStudies": [{"id": "osdr-004", "title": "Cardiovascular deconditioning during long-duration spaceflight", "similarity": 0.70}]
+  },
+  {
+    "id": "pmc-007",
+    "title": "Muscle physiology in microgravity",
+    "source": "PMC Papers",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "ISS muscle studies",
+    "assayType": "Biopsy analysis",
+    "sampleSize": 18,
+    "snippet": "Muscle fiber type shifts and atrophy mechanisms in astronauts",
+    "entities": ["muscle physiology", "biopsy", "atrophy"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8123456/",
+    "ragSnippets": [
+      "Muscle fiber type shifts and atrophy mechanisms",
+      "In astronauts"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Muscle fiber histology", "pmcid": "PMC8123456"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Microscope"], "assayTypes": ["Biopsy analysis"], "missions": ["ISS muscle studies"], "duration": "180 days", "tissueType": "muscle", "keyGenes": ["MYH7", "ACTN3"]},
+    "previewData": null,
+    "doi": "10.1016/j.cmet.2021.04.001",
+    "ragExpansion": {"relevantPassages": [{"text": "Muscle fiber type shifts...", "chunkId": "chunk_027", "confidence": 0.87}], "extractionTrace": ["chunk_027"]},
+    "relatedStudies": [{"id": "osdr-003", "title": "Muscle atrophy mechanisms in microgravity: A proteomic approach", "similarity": 0.90}]
+  },
+  {
+    "id": "pmc-008",
+    "title": "Plant growth in closed ecological systems",
+    "source": "PMC Papers",
+    "year": 2020,
+    "organism": "Various plants",
+    "mission": "Ground-based CELSS",
+    "assayType": "Growth analysis",
+    "sampleSize": 50,
+    "snippet": "Optimization of plant cultivation in closed-loop systems for space habitats",
+    "entities": ["plant growth", "CELSS", "space habitats"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7456780/",
+    "ragSnippets": [
+      "Optimization of plant cultivation in closed-loop systems",
+      "For space habitats"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Plant growth curves", "pmcid": "PMC7456780"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Growth chambers"], "assayTypes": ["Growth analysis"], "missions": ["Ground-based CELSS"], "duration": "90 days", "tissueType": "whole plant", "keyGenes": []},
+    "previewData": null,
+    "doi": "10.3389/fpls.2020.00789",
+    "ragExpansion": {"relevantPassages": [{"text": "Optimization of plant cultivation...", "chunkId": "chunk_028", "confidence": 0.83}], "extractionTrace": ["chunk_028"]},
+    "relatedStudies": [{"id": "osdr-005", "title": "Plant gravitropism responses in microgravity environments", "similarity": 0.75}]
+  },
+  {
+    "id": "pmc-009",
+    "title": "Neurological effects of space radiation",
+    "source": "PMC Papers",
+    "year": 2019,
+    "organism": "Mus musculus",
+    "mission": "Ground-based radiation",
+    "assayType": "Behavioral testing",
+    "sampleSize": 40,
+    "snippet": "Cognitive deficits and neural damage from simulated space radiation exposure",
+    "entities": ["neurological effects", "space radiation", "cognitive deficits"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789123/",
+    "ragSnippets": [
+      "Cognitive deficits and neural damage",
+      "From simulated space radiation exposure"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Behavioral test results", "pmcid": "PMC6789123"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Maze apparatus"], "assayTypes": ["Behavioral testing"], "missions": ["Ground-based radiation"], "duration": "acute", "tissueType": "brain", "keyGenes": ["APP", "MAPT"]},
+    "previewData": null,
+    "doi": "10.1016/j.radonc.2019.07.012",
+    "ragExpansion": {"relevantPassages": [{"text": "Cognitive deficits and neural damage...", "chunkId": "chunk_029", "confidence": 0.86}], "extractionTrace": ["chunk_029"]},
+    "relatedStudies": [{"id": "osdr-009", "title": "Neural plasticity changes in microgravity", "similarity": 0.80}]
+  },
+  {
+    "id": "pmc-010",
+    "title": "Genomic instability in space environments",
+    "source": "PMC Papers",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "ISS genomic studies",
+    "assayType": "Whole genome sequencing",
+    "sampleSize": 10,
+    "snippet": "Increased mutation rates and chromosomal aberrations in astronaut DNA samples",
+    "entities": ["genomic instability", "mutations", "chromosomal aberrations"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8123467/",
+    "ragSnippets": [
+      "Increased mutation rates and chromosomal aberrations",
+      "In astronaut DNA samples"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Mutation frequency charts", "pmcid": "PMC8123467"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Sequencer"], "assayTypes": ["Whole genome sequencing"], "missions": ["ISS genomic studies"], "duration": "180 days", "tissueType": "blood", "keyGenes": []},
+    "previewData": null,
+    "doi": "10.1038/s41467-021-23089-5",
+    "ragExpansion": {"relevantPassages": [{"text": "Increased mutation rates...", "chunkId": "chunk_030", "confidence": 0.89}], "extractionTrace": ["chunk_030"]},
+    "relatedStudies": [{"id": "osdr-019", "title": "DNA methylation patterns in space-exposed cells", "similarity": 0.85}]
+  },
+  {
+    "id": "pmc-011",
+    "title": "Cardiac rhythm disturbances in space",
+    "source": "PMC Papers",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "ISS cardiac monitoring",
+    "assayType": "ECG",
+    "sampleSize": 20,
+    "snippet": "Arrhythmias and heart rate variability changes during spaceflight",
+    "entities": ["cardiac rhythm", "arrhythmias", "ECG"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7456790/",
+    "ragSnippets": [
+      "Arrhythmias and heart rate variability changes",
+      "During spaceflight"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "ECG tracings", "pmcid": "PMC7456790"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["ECG monitor"], "assayTypes": ["ECG"], "missions": ["ISS cardiac monitoring"], "duration": "180 days", "tissueType": "heart", "keyGenes": []},
+    "previewData": null,
+    "doi": "10.3389/fphys.2020.00954",
+    "ragExpansion": {"relevantPassages": [{"text": "Arrhythmias and heart rate variability...", "chunkId": "chunk_031", "confidence": 0.84}], "extractionTrace": ["chunk_031"]},
+    "relatedStudies": [{"id": "osdr-004", "title": "Cardiovascular deconditioning during long-duration spaceflight", "similarity": 0.88}]
+  },
+  {
+    "id": "pmc-012",
+    "title": "Renal function in microgravity",
+    "source": "PMC Papers",
+    "year": 2019,
+    "organism": "Homo sapiens",
+    "mission": "ISS renal studies",
+    "assayType": "Blood chemistry",
+    "sampleSize": 15,
+    "snippet": "Changes in kidney function and stone formation risk during spaceflight",
+    "entities": ["renal function", "kidney stones", "microgravity"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789023/",
+    "ragSnippets": [
+      "Changes in kidney function and stone formation risk",
+      "During spaceflight"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Renal biomarker levels", "pmcid": "PMC6789023"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Analyzer"], "assayTypes": ["Blood chemistry"], "missions": ["ISS renal studies"], "duration": "180 days", "tissueType": "kidney", "keyGenes": []},
+    "previewData": null,
+    "doi": "10.1681/ASN.2019050489",
+    "ragExpansion": {"relevantPassages": [{"text": "Changes in kidney function...", "chunkId": "chunk_032", "confidence": 0.85}], "extractionTrace": ["chunk_032"]},
+    "relatedStudies": [{"id": "pmc-004", "title": "Bone loss prevention strategies for space missions", "similarity": 0.70}]
+  },
+  {
+    "id": "pmc-013",
+    "title": "Hematological changes in space",
+    "source": "PMC Papers",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "ISS hematology",
+    "assayType": "Blood count",
+    "sampleSize": 25,
+    "snippet": "Anemia and altered blood cell production in astronauts",
+    "entities": ["hematological changes", "anemia", "blood cells"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8123478/",
+    "ragSnippets": [
+      "Anemia and altered blood cell production",
+      "In astronauts"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Blood cell counts", "pmcid": "PMC8123478"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Hematology analyzer"], "assayTypes": ["Blood count"], "missions": ["ISS hematology"], "duration": "180 days", "tissueType": "blood", "keyGenes": ["EPO", "GATA1"]},
+    "previewData": null,
+    "doi": "10.1038/s41591-021-01342-6",
+    "ragExpansion": {"relevantPassages": [{"text": "Anemia and altered blood cell production...", "chunkId": "chunk_033", "confidence": 0.87}], "extractionTrace": ["chunk_033"]},
+    "relatedStudies": [{"id": "osdr-006", "title": "Immune system alterations during spaceflight missions", "similarity": 0.75}]
+  },
+  {
+    "id": "pmc-014",
+    "title": "Metabolic adaptations in spaceflight",
+    "source": "PMC Papers",
+    "year": 2020,
+    "organism": "Mus musculus",
+    "mission": "Rodent Research-20",
+    "assayType": "Metabolomics",
+    "sampleSize": 30,
+    "snippet": "Shifts in energy metabolism and nutrient utilization in microgravity",
+    "entities": ["metabolic adaptations", "energy metabolism", "nutrient utilization"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7456801/",
+    "ragSnippets": [
+      "Shifts in energy metabolism and nutrient utilization",
+      "In microgravity"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Metabolic pathway maps", "pmcid": "PMC7456801"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Mass spec"], "assayTypes": ["Metabolomics"], "missions": ["Rodent Research-20"], "duration": "45 days", "tissueType": "various", "keyGenes": ["AMPK", "PPARG"]},
+    "previewData": null,
+    "doi": "10.1016/j.cmet.2020.06.012",
+    "ragExpansion": {"relevantPassages": [{"text": "Shifts in energy metabolism...", "chunkId": "chunk_034", "confidence": 0.86}], "extractionTrace": ["chunk_034"]},
+    "relatedStudies": [{"id": "osdr-008", "title": "Liver metabolism during microgravity exposure", "similarity": 0.85}]
+  },
+  {
+    "id": "pmc-015",
+    "title": "Epigenetic modifications in space-exposed organisms",
+    "source": "PMC Papers",
+    "year": 2021,
+    "organism": "Arabidopsis thaliana",
+    "mission": "ISS plant epigenetics",
+    "assayType": "Bisulfite sequencing",
+    "sampleSize": 40,
+    "snippet": "Changes in DNA methylation and histone modifications in plants grown in space",
+    "entities": ["epigenetic modifications", "DNA methylation", "histone"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8123489/",
+    "ragSnippets": [
+      "Changes in DNA methylation and histone modifications",
+      "In plants grown in space"
+    ],
+    "figures": [
+      {"id": "fig1", "url": "/api/placeholder/600/400", "caption": "Epigenetic mark distributions", "pmcid": "PMC8123489"}
+    ],
+    "datasets": [],
+    "metadata": {"instruments": ["Sequencer"], "assayTypes": ["Bisulfite sequencing"], "missions": ["ISS plant epigenetics"], "duration": "28 days", "tissueType": "whole plant", "keyGenes": ["MET1", "DRM2"]},
+    "previewData": null,
+    "doi": "10.1038/s41467-021-23456-7",
+    "ragExpansion": {"relevantPassages": [{"text": "Changes in DNA methylation...", "chunkId": "chunk_035", "confidence": 0.88}], "extractionTrace": ["chunk_035"]},
+    "relatedStudies": [{"id": "osdr-019", "title": "DNA methylation patterns in space-exposed cells", "similarity": 0.90}]
+  },
+  {
+    "id": "nasa-001",
+    "title": "Rodent Research-19 Bone Tissue Dataset",
+    "source": "NASA Data Portal",
+    "year": 2019,
+    "organism": "Mus musculus",
+    "mission": "ISS Expedition 61",
+    "assayType": "RNA-seq",
+    "sampleSize": 48,
+    "snippet": "RNA sequencing data from mouse femur and tibia samples collected during 30-day spaceflight mission",
+    "entities": ["bone tissue", "RNA-seq", "rodent research"],
+    "url": "https://data.nasa.gov/dataset/rr19-bone",
+    "ragSnippets": [
+      "RNA sequencing data from mouse femur and tibia samples",
+      "Collected during 30-day spaceflight mission"
+    ],
+    "figures": [],
+    "datasets": ["RR-19-bone-samples"],
+    "metadata": {"instruments": ["Illumina HiSeq 4000"], "assayTypes": ["RNA-seq"], "missions": ["ISS Expedition 61"], "duration": "30 days", "tissueType": "bone", "keyGenes": ["BGLAP", "COL1A1"]},
+    "previewData": {"type": "csv", "rows": [{"gene_id": "ENSMUSG00000000001", "gene_name": "Gnai3", "flight_fpkm": 45.2, "control_fpkm": 52.1, "fold_change": -1.15}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "RNA sequencing data from mouse femur...", "chunkId": "chunk_036", "confidence": 0.92}], "extractionTrace": ["chunk_036"]},
+    "relatedStudies": [{"id": "nasa-002", "title": "ISS Microbiome Longitudinal Study Dataset", "similarity": 0.60}]
+  },
+  {
+    "id": "nasa-002",
+    "title": "ISS Microbiome Longitudinal Study Dataset",
+    "source": "NASA Data Portal",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "ISS Expedition 62-63",
+    "assayType": "Metagenomics",
+    "sampleSize": 156,
+    "snippet": "Longitudinal microbiome analysis of crew saliva and skin samples",
+    "entities": ["microbiome", "longitudinal study", "ISS"],
+    "url": "https://data.nasa.gov/dataset/iss-microbiome",
+    "ragSnippets": [
+      "Longitudinal microbiome analysis of crew saliva and skin samples"
+    ],
+    "figures": [],
+    "datasets": ["ISS-microbiome-samples"],
+    "metadata": {"instruments": ["Oxford Nanopore MinION"], "assayTypes": ["Metagenomics"], "missions": ["ISS Expedition 62-63"], "duration": "180 days", "tissueType": "saliva, skin", "keyGenes": []},
+    "previewData": {"type": "taxonomy", "data": [{"taxon": "Firmicutes", "abundance_pre": 45.2, "abundance_flight": 38.7, "abundance_post": 42.1}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Longitudinal microbiome analysis...", "chunkId": "chunk_037", "confidence": 0.89}], "extractionTrace": ["chunk_037"]},
+    "relatedStudies": [{"id": "nasa-001", "title": "Rodent Research-19 Bone Tissue Dataset", "similarity": 0.55}]
+  },
+  {
+    "id": "nasa-003",
+    "title": "Tissue Architecture Imaging - Cardiac Samples Dataset",
+    "source": "NASA Data Portal",
+    "year": 2021,
+    "organism": "Homo sapiens",
+    "mission": "Tissue Chips in Space",
+    "assayType": "Imaging",
+    "sampleSize": 24,
+    "snippet": "High-resolution confocal microscopy images of engineered cardiac tissue chips exposed to microgravity",
+    "entities": ["tissue imaging", "cardiac samples", "confocal microscopy"],
+    "url": "https://data.nasa.gov/dataset/tissue-cardiac",
+    "ragSnippets": [
+      "High-resolution confocal microscopy images of engineered cardiac tissue chips",
+      "Exposed to microgravity"
+    ],
+    "figures": [],
+    "datasets": ["tissue-chips-cardiac"],
+    "metadata": {"instruments": ["Confocal microscope"], "assayTypes": ["Imaging"], "missions": ["Tissue Chips in Space"], "duration": "30 days", "tissueType": "cardiac", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "cardiac_day0_001.tiff", "dimensions": "2048x2048", "channels": 4}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "High-resolution confocal microscopy images...", "chunkId": "chunk_038", "confidence": 0.87}], "extractionTrace": ["chunk_038"]},
+    "relatedStudies": [{"id": "nasa-004", "title": "Human Physiology Collection Dataset", "similarity": 0.70}]
+  },
+  {
+    "id": "nasa-004",
+    "title": "Human Physiology Collection Dataset",
+    "source": "NASA Data Portal",
+    "year": 2020,
+    "organism": "Homo sapiens",
+    "mission": "Various ISS expeditions",
+    "assayType": "Physiology monitoring",
+    "sampleSize": 200,
+    "snippet": "Comprehensive physiological data from astronauts including cardiovascular, musculoskeletal, and neurological measurements",
+    "entities": ["human physiology", "astronaut data", "monitoring"],
+    "url": "https://data.nasa.gov/dataset/human-physiology",
+    "ragSnippets": [
+      "Comprehensive physiological data from astronauts",
+      "Including cardiovascular, musculoskeletal, and neurological measurements"
+    ],
+    "figures": [],
+    "datasets": ["human-physiology-collection"],
+    "metadata": {"instruments": ["Various monitors"], "assayTypes": ["Physiology monitoring"], "missions": ["Various ISS expeditions"], "duration": "varied", "tissueType": "whole body", "keyGenes": []},
+    "previewData": {"type": "csv", "rows": [{"metric": "Heart rate", "value_flight": 85, "value_control": 72}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Comprehensive physiological data...", "chunkId": "chunk_039", "confidence": 0.85}], "extractionTrace": ["chunk_039"]},
+    "relatedStudies": [{"id": "nasa-003", "title": "Tissue Architecture Imaging - Cardiac Samples Dataset", "similarity": 0.65}]
+  },
+  {
+    "id": "nasa-005",
+    "title": "Plant Biology Experiments Dataset",
+    "source": "NASA Data Portal",
+    "year": 2019,
+    "organism": "Arabidopsis thaliana",
+    "mission": "ISS Plant Habitat",
+    "assayType": "Growth analysis",
+    "sampleSize": 100,
+    "snippet": "Data from plant growth experiments in the ISS Advanced Plant Habitat facility",
+    "entities": ["plant biology", "growth analysis", "ISS"],
+    "url": "https://data.nasa.gov/dataset/plant-biology",
+    "ragSnippets": [
+      "Data from plant growth experiments",
+      "In the ISS Advanced Plant Habitat facility"
+    ],
+    "figures": [],
+    "datasets": ["iss-plant-habitat"],
+    "metadata": {"instruments": ["Growth chamber sensors"], "assayTypes": ["Growth analysis"], "missions": ["ISS Plant Habitat"], "duration": "60 days", "tissueType": "whole plant", "keyGenes": []},
+    "previewData": {"type": "csv", "rows": [{"parameter": "Biomass", "flight": 45.6, "control": 52.3}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Data from plant growth experiments...", "chunkId": "chunk_040", "confidence": 0.84}], "extractionTrace": ["chunk_040"]},
+    "relatedStudies": [{"id": "osdr-005", "title": "Plant gravitropism responses in microgravity environments", "similarity": 0.80}]
+  },
+  {
+    "id": "nasa-006",
+    "title": "Fluid Physics in Microgravity Dataset",
+    "source": "NASA Data Portal",
+    "year": 2021,
+    "organism": "N/A",
+    "mission": "ISS Fluid Physics",
+    "assayType": "Video analysis",
+    "sampleSize": 50,
+    "snippet": "Fluid behavior and heat transfer studies in microgravity environments",
+    "entities": ["fluid physics", "microgravity", "heat transfer"],
+    "url": "https://data.nasa.gov/dataset/fluid-physics",
+    "ragSnippets": [
+      "Fluid behavior and heat transfer studies",
+      "In microgravity environments"
+    ],
+    "figures": [],
+    "datasets": ["iss-fluid-physics"],
+    "metadata": {"instruments": ["High-speed cameras"], "assayTypes": ["Video analysis"], "missions": ["ISS Fluid Physics"], "duration": "varied", "tissueType": "N/A", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "fluid_dynamics.avi", "dimensions": "1920x1080"}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Fluid behavior and heat transfer studies...", "chunkId": "chunk_041", "confidence": 0.82}], "extractionTrace": ["chunk_041"]},
+    "relatedStudies": [{"id": "nasa-005", "title": "Plant Biology Experiments Dataset", "similarity": 0.50}]
+  },
+  {
+    "id": "nasa-007",
+    "title": "Lighting Effects on Plant Growth Dataset",
+    "source": "NASA Data Portal",
+    "year": 2020,
+    "organism": "Arabidopsis thaliana",
+    "mission": "ISS VEGGIE",
+    "assayType": "Plant physiology",
+    "sampleSize": 96,
+    "snippet": "Investigation of LED lighting effects on plant growth and development in the ISS Vegetable Production System",
+    "entities": ["LED lighting", "plant growth", "VEGGIE"],
+    "url": "https://data.nasa.gov/dataset/lighting-plants",
+    "ragSnippets": [
+      "Investigation of LED lighting effects on plant growth and development",
+      "In the ISS Vegetable Production System"
+    ],
+    "figures": [],
+    "datasets": ["iss-veggie-lighting"],
+    "metadata": {"instruments": ["Spectrometer"], "assayTypes": ["Plant physiology"], "missions": ["ISS VEGGIE"], "duration": "45 days", "tissueType": "whole plant", "keyGenes": []},
+    "previewData": {"type": "csv", "rows": [{"light_type": "Red LED", "growth_rate": 2.5}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Investigation of LED lighting effects...", "chunkId": "chunk_042", "confidence": 0.83}], "extractionTrace": ["chunk_042"]},
+    "relatedStudies": [{"id": "nasa-005", "title": "Plant Biology Experiments Dataset", "similarity": 0.85}]
+  },
+  {
+    "id": "nasa-008",
+    "title": "Microgravity Crystal Growth Experiment Results",
+    "source": "NASA Data Portal",
+    "year": 2019,
+    "organism": "N/A",
+    "mission": "ISS Crystal Growth",
+    "assayType": "Crystal analysis",
+    "sampleSize": 64,
+    "snippet": "Crystal growth experiments showing enhanced purity and structural perfection of crystals grown in microgravity conditions",
+    "entities": ["crystal growth", "microgravity", "structural perfection"],
+    "url": "https://data.nasa.gov/dataset/crystal-growth",
+    "ragSnippets": [
+      "Crystal growth experiments showing enhanced purity and structural perfection",
+      "Of crystals grown in microgravity conditions"
+    ],
+    "figures": [],
+    "datasets": ["iss-crystal-growth"],
+    "metadata": {"instruments": ["Microscope"], "assayTypes": ["Crystal analysis"], "missions": ["ISS Crystal Growth"], "duration": "30 days", "tissueType": "N/A", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "crystal_structure.tiff", "dimensions": "2048x2048"}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Crystal growth experiments...", "chunkId": "chunk_043", "confidence": 0.84}], "extractionTrace": ["chunk_043"]},
+    "relatedStudies": [{"id": "nasa-006", "title": "Fluid Physics in Microgravity Dataset", "similarity": 0.60}]
+  },
+  {
+    "id": "nasa-009",
+    "title": "Space Station Environmental Monitoring Dataset",
+    "source": "NASA Data Portal",
+    "year": 2021,
+    "organism": "N/A",
+    "mission": "ISS Environmental",
+    "assayType": "Environmental monitoring",
+    "sampleSize": 8760,
+    "snippet": "Continuous environmental monitoring data from the ISS including air quality, temperature, humidity, and microbial contamination levels",
+    "entities": ["environmental monitoring", "air quality", "microbial contamination"],
+    "url": "https://data.nasa.gov/dataset/iss-environmental",
+    "ragSnippets": [
+      "Continuous environmental monitoring data from the ISS",
+      "Including air quality, temperature, humidity, and microbial contamination levels"
+    ],
+    "figures": [],
+    "datasets": ["iss-environmental-data"],
+    "metadata": {"instruments": ["Sensors"], "assayTypes": ["Environmental monitoring"], "missions": ["ISS Environmental"], "duration": "continuous", "tissueType": "N/A", "keyGenes": []},
+    "previewData": {"type": "csv", "rows": [{"parameter": "Temperature", "value": 22.5}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Continuous environmental monitoring data...", "chunkId": "chunk_044", "confidence": 0.82}], "extractionTrace": ["chunk_044"]},
+    "relatedStudies": [{"id": "nasa-002", "title": "ISS Microbiome Longitudinal Study Dataset", "similarity": 0.75}]
+  },
+  {
+    "id": "nasa-010",
+    "title": "Tissue Engineering and Regenerative Medicine Dataset",
+    "source": "NASA Data Portal",
+    "year": 2020,
+    "organism": "Human cells",
+    "mission": "ISS Tissue Research",
+    "assayType": "Cell culture",
+    "sampleSize": 240,
+    "snippet": "Tissue engineering experiments in microgravity showing altered cell growth patterns and tissue formation compared to Earth controls",
+    "entities": ["tissue engineering", "regenerative medicine", "cell growth"],
+    "url": "https://data.nasa.gov/dataset/tissue-engineering",
+    "ragSnippets": [
+      "Tissue engineering experiments in microgravity showing altered cell growth patterns",
+      "And tissue formation compared to Earth controls"
+    ],
+    "figures": [],
+    "datasets": ["iss-tissue-engineering"],
+    "metadata": {"instruments": ["Bioreactor"], "assayTypes": ["Cell culture"], "missions": ["ISS Tissue Research"], "duration": "30 days", "tissueType": "various tissues", "keyGenes": []},
+    "previewData": {"type": "images", "images": [{"filename": "tissue_growth.tiff", "dimensions": "2048x2048"}]},
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Tissue engineering experiments...", "chunkId": "chunk_045", "confidence": 0.86}], "extractionTrace": ["chunk_045"]},
+    "relatedStudies": [{"id": "nasa-003", "title": "Tissue Architecture Imaging - Cardiac Samples Dataset", "similarity": 0.85}]
+  },
+  {
+    "id": "ads-001",
+    "title": "Radiation Shielding Materials for Deep Space Missions",
+    "source": "ADS/Harvard",
+    "year": 2021,
+    "organism": "N/A",
+    "mission": "Mars mission planning",
+    "assayType": "Materials testing",
+    "sampleSize": 156,
+    "snippet": "Assessment of advanced materials for spacecraft radiation shielding including polyethylene composites and liquid hydrogen systems",
+    "entities": ["radiation shielding", "spacecraft materials", "polyethylene"],
+    "url": "https://ui.adsabs.harvard.edu/abs/2021JASS...38..123S",
+    "ragSnippets": [
+      "Assessment of advanced materials for spacecraft radiation shielding",
+      "Including polyethylene composites and liquid hydrogen systems"
+    ],
+    "figures": [],
+    "datasets": [],
+    "metadata": {"instruments": ["Radiation detectors"], "assayTypes": ["Materials testing"], "missions": ["Mars mission planning"], "duration": "N/A", "tissueType": "N/A", "keyGenes": []},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Assessment of advanced materials...", "chunkId": "chunk_046", "confidence": 0.84}], "extractionTrace": ["chunk_046"]},
+    "relatedStudies": [{"id": "ads-002", "title": "Propulsion Systems for Interplanetary Biology Missions", "similarity": 0.70}]
+  },
+  {
+    "id": "ads-002",
+    "title": "Propulsion Systems for Interplanetary Biology Missions",
+    "source": "ADS/Harvard",
+    "year": 2020,
+    "organism": "N/A",
+    "mission": "Europa Clipper",
+    "assayType": "Engineering analysis",
+    "sampleSize": 48,
+    "snippet": "Engineering analysis of propulsion requirements and fuel efficiency for biological sample return missions to outer planets",
+    "entities": ["propulsion systems", "interplanetary missions", "sample return"],
+    "url": "https://ui.adsabs.harvard.edu/abs/2020AcAau.174..456P",
+    "ragSnippets": [
+      "Engineering analysis of propulsion requirements and fuel efficiency",
+      "For biological sample return missions to outer planets"
+    ],
+    "figures": [],
+    "datasets": [],
+    "metadata": {"instruments": ["N/A"], "assayTypes": ["Engineering analysis"], "missions": ["Europa Clipper"], "duration": "N/A", "tissueType": "N/A", "keyGenes": []},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Engineering analysis of propulsion requirements...", "chunkId": "chunk_047", "confidence": 0.82}], "extractionTrace": ["chunk_047"]},
+    "relatedStudies": [{"id": "ads-001", "title": "Radiation Shielding Materials for Deep Space Missions", "similarity": 0.65}]
+  },
+  {
+    "id": "ads-003",
+    "title": "Life Support System Optimization for Long-Duration Missions",
+    "source": "ADS/Harvard",
+    "year": 2019,
+    "organism": "N/A",
+    "mission": "Mars transit",
+    "assayType": "Systems engineering",
+    "sampleSize": 72,
+    "snippet": "Optimization of closed-loop life support systems including oxygen generation, water recycling, and waste management for Mars missions",
+    "entities": ["life support systems", "oxygen generation", "water recycling"],
+    "url": "https://ui.adsabs.harvard.edu/abs/2019AdSpR..64.1234L",
+    "ragSnippets": [
+      "Optimization of closed-loop life support systems including oxygen generation",
+      "Water recycling, and waste management for Mars missions"
+    ],
+    "figures": [],
+    "datasets": [],
+    "metadata": {"instruments": ["N/A"], "assayTypes": ["Systems engineering"], "missions": ["Mars transit"], "duration": "N/A", "tissueType": "N/A", "keyGenes": []},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Optimization of closed-loop life support systems...", "chunkId": "chunk_048", "confidence": 0.85}], "extractionTrace": ["chunk_048"]},
+    "relatedStudies": [{"id": "ads-004", "title": "Astrobiological Instrumentation for Sample Analysis", "similarity": 0.60}]
+  },
+  {
+    "id": "ads-004",
+    "title": "Astrobiological Instrumentation for Sample Analysis",
+    "source": "ADS/Harvard",
+    "year": 2021,
+    "organism": "Potential microorganisms",
+    "mission": "Mars Sample Return",
+    "assayType": "Instrument design",
+    "sampleSize": 24,
+    "snippet": "Development of miniaturized analytical instruments for detecting biosignatures and analyzing biological samples in space environments",
+    "entities": ["astrobiological instrumentation", "biosignatures", "sample analysis"],
+    "url": "https://ui.adsabs.harvard.edu/abs/2021AsBio..21..789I",
+    "ragSnippets": [
+      "Development of miniaturized analytical instruments for detecting biosignatures",
+      "And analyzing biological samples in space environments"
+    ],
+    "figures": [],
+    "datasets": [],
+    "metadata": {"instruments": ["Various prototypes"], "assayTypes": ["Instrument design"], "missions": ["Mars Sample Return"], "duration": "N/A", "tissueType": "samples", "keyGenes": []},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Development of miniaturized analytical instruments...", "chunkId": "chunk_049", "confidence": 0.87}], "extractionTrace": ["chunk_049"]},
+    "relatedStudies": [{"id": "ads-003", "title": "Life Support System Optimization for Long-Duration Missions", "similarity": 0.70}]
+  },
+  {
+    "id": "ads-005",
+    "title": "Habitat Design for Biological Research in Space Stations",
+    "source": "ADS/Harvard",
+    "year": 2020,
+    "organism": "Various research subjects",
+    "mission": "Future space stations",
+    "assayType": "Habitat engineering",
+    "sampleSize": 36,
+    "snippet": "Architectural and engineering considerations for designing research habitats that support biological experiments in space environments",
+    "entities": ["habitat design", "biological research", "space stations"],
+    "url": "https://ui.adsabs.harvard.edu/abs/2020AcAau.167..234H",
+    "ragSnippets": [
+      "Architectural and engineering considerations for designing research habitats",
+      "That support biological experiments in space environments"
+    ],
+    "figures": [],
+    "datasets": [],
+    "metadata": {"instruments": ["N/A"], "assayTypes": ["Habitat engineering"], "missions": ["Future space stations"], "duration": "N/A", "tissueType": "N/A", "keyGenes": []},
+    "previewData": null,
+    "doi": null,
+    "ragExpansion": {"relevantPassages": [{"text": "Architectural and engineering considerations...", "chunkId": "chunk_050", "confidence": 0.84}], "extractionTrace": ["chunk_050"]},
+    "relatedStudies": [{"id": "ads-001", "title": "Radiation Shielding Materials for Deep Space Missions", "similarity": 0.55}]
+  }
+]

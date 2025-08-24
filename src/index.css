@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NASA Space Biology Knowledge Engine Design System */
+
+@layer base {
+  :root {
+    /* NASA Brand Colors */
+    --nasa-deep: 215 100% 16%; /* #001540 - Deep space indigo */
+    --nasa-teal: 180 100% 32%; /* #00A3A3 - Cosmic teal */
+    --nasa-orange: 25 100% 50%; /* #FF6A00 - Sunrise orange */
+    --sky-white: 214 100% 98%; /* #F7FAFF - Clean white with blue tint */
+    
+    /* Extended NASA Palette */
+    --nasa-deep-variant: 215 85% 20%; /* Lighter deep */
+    --nasa-teal-variant: 180 80% 25%; /* Darker teal */
+    --nasa-orange-variant: 25 85% 45%; /* Darker orange */
+    --cosmos-purple: 250 60% 35%; /* Space purple */
+    --stellar-blue: 210 90% 45%; /* Bright stellar blue */
+    
+    /* Semantic Design Tokens */
+    --background: var(--sky-white);
+    --foreground: var(--nasa-deep);
+    
+    --card: 0 0% 100%;
+    --card-foreground: var(--nasa-deep);
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: var(--nasa-deep);
+    
+    --primary: var(--nasa-deep);
+    --primary-foreground: var(--sky-white);
+    
+    --secondary: var(--nasa-teal);
+    --secondary-foreground: var(--sky-white);
+    
+    --muted: 214 20% 95%;
+    --muted-foreground: 215 20% 40%;
+    
+    --accent: var(--nasa-orange);
+    --accent-foreground: var(--sky-white);
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: var(--sky-white);
+    
+    --border: 214 30% 88%;
+    --input: 214 25% 92%;
+    --ring: var(--nasa-teal);
+    
+    /* Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(var(--nasa-deep)), hsl(var(--cosmos-purple)));
+    --gradient-stellar: linear-gradient(90deg, hsl(var(--nasa-teal)), hsl(var(--stellar-blue)));
+    --gradient-mission: linear-gradient(45deg, hsl(var(--nasa-orange)), hsl(var(--nasa-orange-variant)));
+    --gradient-space: linear-gradient(180deg, hsl(var(--nasa-deep)), hsl(215 90% 8%));
+    
+    /* Shadows & Effects */
+    --shadow-mission: 0 10px 40px -10px hsl(var(--nasa-deep) / 0.3);
+    --shadow-cosmic: 0 20px 60px -15px hsl(var(--nasa-teal) / 0.4);
+    --shadow-glow: 0 0 30px hsl(var(--nasa-orange) / 0.5);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+  
+  /* Starfield Background */
+  .starfield {
+    background: 
+      radial-gradient(2px 2px at 20px 30px, hsl(var(--nasa-teal)), transparent),
+      radial-gradient(2px 2px at 40px 70px, hsl(var(--stellar-blue)), transparent),
+      radial-gradient(1px 1px at 90px 40px, hsl(var(--sky-white)), transparent), 
+      radial-gradient(1px 1px at 130px 80px, hsl(var(--nasa-orange)), transparent),
+      radial-gradient(2px 2px at 160px 30px, hsl(var(--cosmos-purple)), transparent),
+      var(--gradient-space);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: starfield-drift 60s linear infinite;
+  }
+  
+  @keyframes starfield-drift {
+    from { background-position: 0 0; }
+    to { background-position: -200px 0; }
+  }
+  
+  /* Mission Control Typography */
+  .font-inter {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  .text-mission {
+    background: var(--gradient-mission);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-cosmic {
+    background: var(--gradient-stellar);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@layer components {
+  /* Mission Control Components */
+  .mission-card {
+    @apply bg-card border border-border rounded-xl p-6;
+    box-shadow: var(--shadow-mission);
+    transition: var(--transition-smooth);
+  }
+  
+  .mission-card:hover {
+    box-shadow: var(--shadow-cosmic);
+    transform: translateY(-2px);
+  }
+  
+  .cosmic-button {
+    @apply px-6 py-3 rounded-lg font-semibold;
+    background: var(--gradient-stellar);
+    color: hsl(var(--sky-white));
+    transition: var(--transition-bounce);
+  }
+  
+  .cosmic-button:hover {
+    box-shadow: var(--shadow-glow);
+    transform: scale(1.05);
+  }
+  
+  .mission-search {
+    @apply w-full px-6 py-4 rounded-xl border-2 border-border;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    transition: var(--transition-smooth);
+    font-size: 1.1rem;
+  }
+  
+  .mission-search:focus {
+    outline: none;
+    border-color: hsl(var(--nasa-teal));
+    box-shadow: 0 0 0 3px hsl(var(--nasa-teal) / 0.1);
+  }
+  
+  .source-toggle {
+    @apply px-4 py-2 rounded-full border border-border bg-card text-sm font-medium;
+    transition: var(--transition-smooth);
+  }
+  
+  .source-toggle.active {
+    background: var(--gradient-cosmic);
+    color: hsl(var(--sky-white));
+    border-color: transparent;
+  }
+  
+  .quick-chip {
+    @apply px-3 py-1.5 rounded-full text-sm font-medium cursor-pointer;
+    background: hsl(var(--muted));
+    color: hsl(var(--muted-foreground));
+    transition: var(--transition-smooth);
+  }
+  
+  .quick-chip:hover {
+    background: var(--gradient-mission);
+    color: hsl(var(--sky-white));
+  }
+  
+  .rag-answer {
+    @apply p-6 rounded-xl border-l-4;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(247, 250, 255, 0.8));
+    border-left-color: hsl(var(--nasa-teal));
+    backdrop-filter: blur(10px);
+  }
+  
+  .confidence-high { @apply text-emerald-600 font-semibold; }
+  .confidence-medium { @apply text-amber-600 font-semibold; }
+  .confidence-low { @apply text-red-500 font-semibold; }
+  
+  .provenance-link {
+    @apply inline-flex items-center px-2 py-1 rounded text-xs;
+    background: hsl(var(--nasa-teal) / 0.1);
+    color: hsl(var(--nasa-teal));
+    text-decoration: none;
+    transition: var(--transition-smooth);
+  }
+  
+  .provenance-link:hover {
+    background: hsl(var(--nasa-teal));
+    color: hsl(var(--sky-white));
+  }
+  
+  /* Loading Animation */
+  .rocket-loading {
+    display: inline-block;
+    animation: rocket-bounce 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes rocket-bounce {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(5deg); }
+  }
+  
+  /* Knowledge Graph Styles */
+  .kg-node-paper { fill: hsl(var(--nasa-deep)); }
+  .kg-node-dataset { fill: hsl(var(--nasa-teal)); }
+  .kg-node-entity { fill: hsl(var(--nasa-orange)); }
+  .kg-node-mission { fill: hsl(var(--cosmos-purple)); }
+  
+  .kg-edge { stroke: hsl(var(--muted-foreground)); stroke-width: 2; }
+  .kg-edge.highlighted { stroke: hsl(var(--nasa-orange)); stroke-width: 3; }
+}
